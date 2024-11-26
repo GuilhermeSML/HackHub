@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Hub</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Welcome to My GitHub Page!</h1>
-  <p>This is a simple website hosted on GitHub Pages.</p>
+
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Main Grid Layout -->
+    <div class="grid grid-cols-1 gap-6 p-4">
+
+        <!-- Hero Section -->
+        <section class="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-white mb-4">Guilherme's Hack Hub</h2>
+            <p class="text-sm text-gray-400 mb-6">I’m a passionate coder with a mission to create cool, fun, and
+                impactful digital experiences that bring a smile to people’s faces. My goal is to use technology not
+                just for efficiency, but to make the world a more enjoyable and humorous place. Whether it’s building
+                innovative tools or crafting playful apps, I’m dedicated to ensuring that everyone, no matter their
+                background, can have access to the joy and creativity the digital world has to offer. Accessibility and
+                inclusivity are at the heart of my work—because I believe everyone deserves a little fun in their
+                digital experience!</p>
+            <div class="grid grid-cols-1 gap-4">
+                <a href="https://www.linkedin.com/in/guilhermesmloureiro/" class="text-blue-400 hover:underline">Connect
+                    with me on LinkedIn</a>
+                <a href="https://github.com/GuilhermeSML/" class="text-blue-400 hover:underline">Explore my Github</a>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold text-white mb-6">My Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-5 gap-4">
+                <!-- Project 1 -->
+                <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                    <div class="aspect-w-1 aspect-h-1">
+                        <img src="sidequesting.png" alt="Side Questing"
+                            class="w-full h-full object-cover rounded-md mb-4">
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Side Questing</h3>
+                    <p class="text-gray-400 mb-4 text-sm">A web app built Node.JS and Gemini API. It's an interactive side quest giver. If it times out on side quest generation refresh the page.</p>
+                    <a href="https://side-questing.vercel.app/" class="text-blue-500 hover:underline text-sm">View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                    <div class="aspect-w-1 aspect-h-1">
+                        <img src="webcrawling.png" alt="Project 2"
+                            class="w-full h-full object-cover rounded-md mb-4">
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Web Crawling</h3>
+                    <p class="text-gray-400 mb-4 text-sm">A web app built Node.JS and Cheerio. It's an scholar article web Scrapper. The online version sometimes times out.</p>
+                    <a href="https://web-crawling-cyan.vercel.app/" class="text-blue-500 hover:underline text-sm">View Project</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <a href="mailto:guilhermesmloureiro@outlook.com" target="_blank"
+        class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm fixed bottom-4 left-4 hover:bg-blue-700 transition">
+        Contact me
+    </a>
+    <a href="https://www.buymeacoffee.com/yourusername" target="_blank"
+        class="bg-yellow-500 text-gray-900 px-4 py-2 rounded-full text-sm fixed bottom-4 right-4 hover:bg-yellow-600 transition">
+        Buy Me a Coffee
+    </a>
+
 </body>
+
 </html>
